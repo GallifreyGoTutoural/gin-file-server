@@ -141,7 +141,7 @@ func MaxAllowed(n int64) gin.HandlerFunc {
 
 }
 
-func setupRouter() *gin.Engine {
+func SetupRouter() *gin.Engine {
 
 	address1 := os.Getenv("address1")
 	address2 := os.Getenv("address2")
